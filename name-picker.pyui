@@ -1,0 +1,194 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{103, 6}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{209, 302}, {150, 32}}",
+          "uuid" : "58608F93-1082-4871-87DA-C008A93E8B2E",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Available",
+          "name" : "label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{344, 6}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{209, 302}, {150, 32}}",
+          "uuid" : "AE5577EB-8D4C-4557-82FB-C0FD3460A289",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Active",
+          "name" : "label2",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{77, 46}, {201, 349}}",
+        "class" : "TableView",
+        "attributes" : {
+          "flex" : "WH",
+          "data_source_items" : "",
+          "row_height" : 21,
+          "frame" : "{{184, 218}, {200, 200}}",
+          "uuid" : "67063745-86E8-4C6D-88B3-10FA47AB98A9",
+          "data_source_number_of_lines" : 1,
+          "class" : "TableView",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 18,
+          "name" : "tbl_available"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{320, 46}, {200, 349}}",
+        "class" : "TableView",
+        "attributes" : {
+          "flex" : "WH",
+          "data_source_items" : "",
+          "row_height" : 21,
+          "frame" : "{{184, 218}, {200, 200}}",
+          "uuid" : "63E5419F-A21C-4DEF-8161-90D8AADCB932",
+          "data_source_number_of_lines" : 1,
+          "class" : "TableView",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 18,
+          "name" : "tbl_active"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{113, 403}, {138, 49}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "click_btn_manual",
+          "border_width" : 1,
+          "frame" : "{{244, 302}, {80, 32}}",
+          "title" : "Manual Pick",
+          "uuid" : "3621D610-7159-4385-A1A4-60216EF3F891",
+          "class" : "Button",
+          "corner_radius" : 10,
+          "border_color" : "RGBA(0.294118,0.529412,1.000000,1.000000)",
+          "name" : "btn_manual",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{355, 403}, {138, 49}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "click_btn_remove",
+          "border_width" : 1,
+          "frame" : "{{244, 302}, {80, 32}}",
+          "title" : "Remove",
+          "class" : "Button",
+          "uuid" : "3621D610-7159-4385-A1A4-60216EF3F891",
+          "custom_attributes" : "",
+          "border_color" : "RGBA(0.294118,0.529412,1.000000,1.000000)",
+          "corner_radius" : 10,
+          "font_size" : 15,
+          "name" : "btn_remove"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{204, 461}, {195, 49}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "click_btn_auto",
+          "border_width" : 3,
+          "frame" : "{{244, 302}, {80, 32}}",
+          "title" : "Auto Pick",
+          "class" : "Button",
+          "uuid" : "3621D610-7159-4385-A1A4-60216EF3F891",
+          "corner_radius" : 5,
+          "border_color" : "RGBA(0.294118,0.529412,1.000000,1.000000)",
+          "font_size" : 15,
+          "name" : "btn_auto"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{203, 556}, {196, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "action" : "change_sld_option",
+          "flex" : "",
+          "alpha" : 1,
+          "frame" : "{{184, 301}, {200, 34}}",
+          "continuous" : true,
+          "uuid" : "FADCE789-03E1-48AC-A473-40DD26F56E83",
+          "class" : "Slider",
+          "value" : 0,
+          "name" : "sld_option"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{113, 517}, {373, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "lbl_option",
+          "flex" : "W",
+          "frame" : "{{238, 301}, {150, 32}}",
+          "uuid" : "821561F8-579A-4E57-AD3F-44CCA94807A8",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "(move slider to select algorithm)",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {626, 634}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "Name Picker",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
